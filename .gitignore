@@ -1,0 +1,106 @@
+# Ігнорувати node_modules
+node_modules/
+
+# Ігнорувати файли середовища
+.env
+
+# Ігнорувати лог-файли
+*.log
+
+# Ігнорувати папку зі збіркою (якщо є)
+dist/
+build/
+
+# Ігнорувати IDE/редактори
+.vscode/
+.idea/
+
+# Ігнорувати npm та yarn lock-файли
+package-lock.json
+yarn.lock
+
+# Ігнорувати тимчасові файли
+*.tmp
+*.temp
+
+# Ігнорувати папку зі збереженими даними MongoDB (якщо використовуєте локальну базу)
+data/db/
+
+# Ігнорувати папку з кешем
+.cache/
+
+# Ігнорувати файли резервного копіювання та тимчасові файли
+*.bak
+*.swp
+*.swo
+*.swn
+*.sav
+*.orig
+*.rej
+*.un~
+*~
+
+# Ігнорувати файли компіляції
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.obj
+*.o
+*.a
+*.lib
+*.exp
+*.pdb
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tgz
+*.tbz2
+*.txz
+*.gz
+*.bz2
+*.xz
+*.Z
+*.lzma
+*.rar
+*.7z
+*.dmg
+*.iso
+*.img
+*.vdi
+*.vmdk
+*.vmx
+*.ova
+*.ovf
+*.vbox
+*.torrent
+*.part
+*.aria2
+
+# Ігнорувати файли конфігурації редактора Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Ігнорувати файли конфігурації Visual Studio Code
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/vscode-settings.json
+
+# Ігнорувати файли конфігурації IntelliJ IDEA
+*.iml
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/dictionaries
+/.idea/vcs.xml
+/.idea/jsLibraryMappings.xml
+
+# Ігнорувати файли конфігурації WebStorm
+*.ws
